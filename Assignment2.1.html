@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Multiplication Table </title>
+</head>
+<body>
+    <script>
+        
+let number = parseFloat(prompt("Enter the number:"));
+
+if (isNaN(number)) {
+  console.log("Invalid number");
+} 
+else {
+  
+  console.log("Multiplication table for " + number + ":");
+
+  for (let i = 1; i <= 10; i++) {
+    let result = number * i;
+    console.log(number + " * " + i + " = " + result);
+  }
+}
+
+    </script>
+    
+</body>
+</html>
